@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,47 +27,66 @@
     <div class="brand">KARZ</div>
     <h1>Privacy Policy</h1>
     <p class="subtitle">Vehicle management, with privacy in mind.</p>
-    <p class="subtitle">Effective date: 16 October 2026</p>
+    <p class="subtitle">Last updated: 28 October 2026</p>
   </header>
   <main>
     <div class="intro">
-      <p>KARZ is a vehicle management application developed by IUB Apps. This Privacy Policy explains how information is handled when you use KARZ, including its optional Google Sign-In and Google Drive backup features.</p>
+      <p>KARZ is a vehicle management application developed by IUB Apps. This policy describes how KARZ handles information when you use its vehicle tracking, Secure Document Vault, optional Google Sign-In, and backup and restore features.</p>
     </div>
-    <h2>1. Information You Provide</h2>
-    <p>KARZ allows you to record vehicle information, maintenance and service history, fuel records, expenses, reminders, notes, and related details. You may also attach photographs, receipts, and PDF documents.</p>
-    <p>This information is entered and managed by you to provide the application's vehicle management features.</p>
-    <h2>2. Local Data Storage</h2>
-    <p>KARZ stores your vehicle management records on your device. The app uses local storage so you can access supported features without an internet connection.</p>
-    <p>Information stored locally remains subject to the security of your device, operating system, and any device-level backup settings.</p>
-    <h2>3. Google Sign-In and Google Drive Backups</h2>
-    <p>Google account connection is optional. If you choose to connect your Google account, KARZ uses Google authentication services to enable Google Drive backup and restore functionality.</p>
-    <p>When you initiate or enable a backup, KARZ may transfer your saved vehicle records and associated supported attachments to the application-specific storage area of your Google Drive account. Backup and restore operations require internet connectivity and are subject to Google's services and policies.</p>
-    <p>KARZ uses the Google account authorization you grant for this feature. Your Google account and backup information are also subject to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
-    <h2>4. Photos, Receipts, and Documents</h2>
-    <p>When you choose to attach images or documents, KARZ accesses the files you select to associate them with your vehicle records. Supported attachments may be included when you use the app's backup or export features.</p>
-    <p>If you share exported files with another application or person, their handling of those files is outside KARZ's control.</p>
-    <h2>5. Notifications and Reminders</h2>
-    <p>KARZ may use device notification permissions to provide vehicle maintenance and service reminders. You can manage notification permissions through your device settings.</p>
-    <h2>6. Third-Party Services</h2>
-    <p>KARZ uses Google services for optional account authentication and Google Drive backup functionality. These services may process technical information required to provide authentication, security, connectivity, and backup operations under their own privacy policies.</p>
-    <p>Device platform services may also process technical or diagnostic information as part of normal app installation, operation, and security.</p>
-    <h2>7. Data Sharing</h2>
-    <p>KARZ's vehicle management features are designed around information you store and manage yourself. Information may be transmitted to Google when you choose to use Google authentication or Drive backup features, or to destinations you select when sharing or exporting records.</p>
-    <p>KARZ does not require you to make your vehicle records publicly available to use its core tracking features.</p>
-    <h2>8. Data Retention and Deletion</h2>
-    <p>You can edit and delete vehicle records within KARZ. You can remove locally stored application data through the app's available controls or your device's application storage settings.</p>
-    <p>Uninstalling KARZ does not necessarily delete previously created external backups or exported files. Backup data stored in your Google account and files exported elsewhere may need to be managed separately.</p>
-    <h2>9. Data Security</h2>
-    <p>We aim to minimize unnecessary access to your information by keeping core vehicle records on your device and making Google account connection optional. However, no storage or data transmission method can be guaranteed completely secure. We recommend protecting your device and Google account with appropriate security measures.</p>
-    <h2>10. Children's Privacy</h2>
-    <p>KARZ is a general vehicle management application and is not designed specifically for children. The application is intended for users managing vehicles and related expenses.</p>
-    <h2>11. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy as KARZ's functionality or applicable requirements change. Updates will be published on this page with a revised effective date where appropriate.</p>
-    <h2>12. Contact Us</h2>
-    <p>For questions about this Privacy Policy or KARZ's handling of your information, contact:</p>
+
+    <h2>1. Information You Choose to Store</h2>
+    <p>You may enter vehicle details, odometer readings, fuel and maintenance history, repairs, expenses, service reminders, workshop notes, and other vehicle-related records. You may also select photos, receipts, PDFs, or other supported documents. Some documents may contain personal information you choose to include.</p>
+    <p>KARZ does not require a Google account to use its core local vehicle-tracking features.</p>
+
+    <h2>2. Local Storage and SQLite</h2>
+    <p>KARZ stores its main Garage and vehicle-management data locally on your device using SQLite and associated application storage. Supported core functions can operate without an internet connection. Local records are not automatically published or sent to an IUB Apps-operated server.</p>
+    <p>Your local data may be affected by device loss, app-data deletion, uninstallation, operating-system behavior, or device-level backup settings. We recommend keeping a separate backup of important information.</p>
+
+    <h2>3. Secure Document Vault</h2>
+    <p>Secure Document Vault lets you keep selected personal and vehicle documents in KARZ. Imported Vault files and their protected index are encrypted in the app's private device storage. Vault access uses supported Android device authentication, such as a configured screen lock or biometrics, and includes optional automatic-lock settings.</p>
+    <p>Vault documents are separate from ordinary Garage backups. Creating a regular KARZ backup does not automatically include Secure Vault documents.</p>
+    <p>Device authentication and encryption reduce exposure, but cannot guarantee protection against every device compromise, software vulnerability, or loss of access. A device screen lock is required for the current Vault access experience.</p>
+
+    <h2>4. Optional Google Account Connection</h2>
+    <p>Connecting a Google account is optional and is used for Google Drive backup and restore functions. KARZ uses Google Sign-In and receives authorization for the Drive functions you approve. The app may use your Google account email address locally to identify or remember the connected backup account.</p>
+    <p>KARZ does not create a separate IUB Apps online account or require an IUB Apps password to use its local features. Google's authentication and service operations are also governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+    <h2>5. Google Drive Backups</h2>
+    <p>If you choose Google Drive backup, KARZ transfers the relevant backup data to private application-specific storage associated with your Google Drive account. Ordinary Garage backups can contain vehicle records, expenses and supported attachments. A separate, passphrase-protected backup mechanism is available for Secure Document Vault documents.</p>
+    <p>The managed Vault Drive backup feature retains a latest encrypted backup and a previous recovery copy, subject to successful operations. A Vault recovery passphrase is required to decrypt a portable Vault archive; KARZ does not store that recovery passphrase in Google Drive as part of the managed backup.</p>
+    <p>Google Drive backups require network access and are subject to your Google account's available storage, permissions and Google's service terms. KARZ does not operate its own remote storage server for these backups. You control whether to use the backup features and which Google account you connect.</p>
+
+    <h2>6. Local Exports, Sharing, and Recovery</h2>
+    <p>KARZ provides backup/export options that can send files through Android's sharing interface to a destination you choose, such as another application, cloud storage or a local file destination where supported. Once you export or share a file, the receiving application, recipient and storage location may have their own privacy and security practices.</p>
+    <p>Ordinary backups and encrypted Vault archives have different security characteristics. Keep exported backups in a safe location, protect any recovery passphrases, and avoid sharing private backup files with untrusted parties.</p>
+    <p>Some upgrades from older KARZ storage formats may require manually exporting a backup and restoring it into the newer SQLite-based Garage rather than automatically transferring legacy records. Follow any in-app migration instructions and verify a usable backup before choosing to start fresh.</p>
+
+    <h2>7. Notifications and Device Permissions</h2>
+    <p>With your permission, KARZ may display maintenance or service notifications. It also uses supported Android authentication and file-selection functionality when you choose to access Secure Vault or import documents. You can manage relevant permissions through Android Settings.</p>
+
+    <h2>8. Third-Party Processing and Data Sharing</h2>
+    <p>KARZ uses Google authentication and Google Drive services for optional backup operations. These providers may process account, network or technical information needed to deliver their services. Android and Google Play may also process diagnostic and security information as part of the platform's normal operation.</p>
+    <p>We do not use vehicle records or Vault documents to sell personal information or display behaviorally targeted advertisements in KARZ. We do not intentionally make your records public. Data is transmitted to Google when you activate supported Google services, or to destinations you select when sharing or exporting data.</p>
+
+    <h2>9. Retention, Deletion and Access</h2>
+    <p>You can edit or delete supported Garage records and Vault documents within KARZ, and you can remove local app data using available reset controls or Android's app storage settings. Deleting app data or uninstalling the app may permanently erase local information that has not been backed up.</p>
+    <p>Local deletion does not automatically erase external exports, files shared with other apps, or backups previously saved in Google Drive. KARZ includes controls for managing supported application backups; you may also need to manage retained files in the relevant service or location. A managed encrypted Vault backup may contain documents that were later deleted from the live Vault.</p>
+    <p>KARZ does not maintain a separate IUB Apps user account for its current core functionality. If you have a privacy or data-handling question, contact us using the address below.</p>
+
+    <h2>10. Security and Limitations</h2>
+    <p>We use local app storage, Android authentication, encryption for Secure Vault documents and passphrase-protected Vault export archives, and secure connections to Google services where applicable. Ordinary Garage backups are separate from the Vault's passphrase-protected archive format and should not be assumed to have identical encryption protections.</p>
+    <p>No security control can guarantee absolute protection. Protect your device, Google account, exported backups and recovery passphrases. Avoid storing important information exclusively in one place.</p>
+
+    <h2>11. Children's Privacy</h2>
+    <p>KARZ is intended for general vehicle management and is not designed specifically for children. It is intended for people managing vehicles, maintenance and related expenses.</p>
+
+    <h2>12. Changes to This Policy</h2>
+    <p>We may update this policy as KARZ's functionality, third-party services or applicable requirements change. Material updates will be reflected on this page with an updated date.</p>
+
+    <h2>13. Contact</h2>
+    <p>For questions about this policy or KARZ's handling of your information, contact:</p>
     <p><strong>IUB Apps</strong><br>Email: <a href="mailto:karzxtracker@gmail.com">karzxtracker@gmail.com</a></p>
   </main>
   <footer>&copy; 2026 IUB Apps. KARZ Privacy Policy.</footer>
 </body>
 </html>
-  
